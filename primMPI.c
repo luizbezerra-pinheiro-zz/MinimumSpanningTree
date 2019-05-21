@@ -388,7 +388,7 @@ void results(){
 	/* Only root's has mst_edges array */
 	if (rank == root) {
 		totalTime = MPI_Wtime() - startTime;
-		printMSTEdges();
+		//printMSTEdges();
 		printf("Total time : %lf\n", totalTime);
 		printf("Total distance: %f\n", total_distance);
 	}
